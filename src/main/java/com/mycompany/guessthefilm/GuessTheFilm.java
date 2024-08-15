@@ -14,6 +14,8 @@ public class GuessTheFilm {
 
     public static void main(String[] args) throws FileNotFoundException {
         Game game = new Game();
+        System.out.println("hey");
         game.writeFilms();
+        
     }
 }
